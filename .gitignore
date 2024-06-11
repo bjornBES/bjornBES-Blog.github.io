@@ -3050,26 +3050,3 @@ node_modules/yallist/LICENSE
 node_modules/yallist/package.json
 node_modules/yallist/README.md
 node_modules/yallist/yallist.js
-public/index.html
-public/About/index.html
-public/JavaScript/Home.js
-public/JavaScript/pageContents.js
-public/assets/FixedFiles.html
-public/assets/footer.html
-public/assets/navbar.html
-public/assets/FixedFiles/index.html
-public/assets/footer/index.html
-public/assets/navbar/index.html
-public/blog/index.html
-public/blog/2024-06-11 first blog/index.html
-public/blog/2024-06-11 sec blog/index.html
-public/blog/2024-06-12 tri blog/index.html
-public/blog1text/index.html
-public/blogPageTemp/index.html
-public/style/about.css
-public/style/article.css
-public/style/blog.css
-public/style/footer.css
-public/style/index.css
-public/style/Navbar.css
-public/style/pageContents.css

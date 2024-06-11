@@ -1,0 +1,70 @@
+
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+    display: inline;
+    float: left;
+    width: 70%;
+    overflow: hidden;
+}
+
+/* Right column */
+.rightcolumn {
+    position: relative;
+    float: right;
+    display: inline;
+    width: 25%;
+    padding-left: 20px;
+    overflow: hidden;
+}
+
+.rightcolumn .fakeimg
+{
+    background-color: #111;
+    width: 90%;
+    padding: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+    background-color: #111;
+    width: 97%;
+    padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+    color: white;
+    background-color: black;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.articleCards h2 {
+    position: relative;
+    display: inline;
+}
+
+.articleCards h5 {
+    position: relative;
+    bottom: 19px;
+    float: right;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+
+    .leftcolumn,
+    .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+}

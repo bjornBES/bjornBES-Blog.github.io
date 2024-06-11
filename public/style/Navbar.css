@@ -1,0 +1,74 @@
+.Navbar {
+    font-size: 25px;
+    color: white;
+    z-index: 2;
+    padding-bottom: 100px;
+}
+
+ul {
+    opacity: 0.9;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+    right: 0px;
+    background-color: #333;
+    z-index: 2;
+}
+
+li 
+{
+    border-right: 1px solid #bbb;
+    display: inline;
+    float: left;
+    z-index: 2;
+}
+li:last-child
+{
+    border-right: none;
+}
+
+a {
+    display: block;
+    padding: 15px;
+    text-align: center;
+    min-width: 100px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+li:hover a:hover
+{
+    color: white;
+    background-color: #111;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    padding: 15px;
+    padding-top: 30px;
+    background-color: #333;
+    position: fixed;
+    width: 160px;
+    min-width: 160px;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    background-color: #333;
+    color: white;
+}
+
+.dropdown:hover {
+    color: black;
+    background-color: #111;
+}
