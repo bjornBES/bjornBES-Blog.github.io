@@ -1,0 +1,67 @@
+.AB_header {
+    padding: 30px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    background: black;
+}
+
+.AB_leftcolumn {
+    color: white;
+    background-color: black;
+    padding: 20px;
+    margin-top: 20px;
+
+    display: inline;
+    float: left;
+    height: 250px;
+    width: 250px;
+}
+
+/* Right column */
+.AB_rightcolumn {
+    color: white;
+    background-color: black;
+    padding: 20px;
+    margin-top: 20px;
+
+    float: right;
+    display: inline;
+    width: 75%;
+    height: 250px;
+}
+
+.AB_articleCards h2 {
+    position: relative;
+    display: inline;
+    bottom: 40px;
+    float: left;
+}
+
+.AB_articleCards h5 {
+    left: 20px;
+    position: relative;
+    bottom: 15px;
+}
+
+/* Fake image */
+.AB_fakeimg {
+    position: relative;
+    top: 5px;
+    background-color: #111;
+    padding: 20px;
+}
+
+.AB_row
+{
+    display: inline;
+}
+
+/* Clear floats after the columns */
+.AB_row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
